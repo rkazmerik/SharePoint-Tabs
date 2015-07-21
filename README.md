@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Hillbilly Tabs + Config Panel
 
 This project is an extension of the HillbillyTabs.js project published by Mark Rackely 
@@ -15,7 +14,7 @@ written to provide the configuration panel functionality, without changing the c
 structure of the original script.
 
 ##Libraries
-The following libraries were used in this project:
+The following libraries were used in this project
 1. jQuery - jquery-1.11.1.min.js
 2. jQuery UI - ui/1.11.2/jquery-ui.min.js
 3. jQuery Cookie - jquery.cookie/1.4.1/jquery.cookie.min.js
