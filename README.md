@@ -25,17 +25,28 @@ The following libraries were used in this project:
 The HillbillyTabs-Config.js can be stored in a Site Assets or Style Library of the target
 SharePoint site. Add a content editor webpart to any page with webpart zones (i.e. Webpart
 page, page layout) and reference the script in content link field of the webpart. The content
-link field can be accessed in the webpart settings panel of the content editor Webpart.
+link field can be accessed in the webpart settings panel of the content editor webpart.
 
 The tab configuration panel can be accessed by editing the page. Any changes to the 
 configuration panel will need to be saved by hitting the 'Save' button before the changes
 can be viewed.
 
-##Storage
+<img src='https://pbs.twimg.com/media/CKNiF4TUMAAc9wv.png:large' />
 
+##Storage & Caching
+The configuration settings are stored in the 'description' field of the content editor 
+webpart for persistant storage. The configuration settings are also cached into a cookie 
+for faster loading and saving during usage.
 
-##Caching
-Since discovering that cookies are sometimes limited to < 5kb, other lightweight caching 
+###Cookie Variables
+1. HillbillyTabConfig - stores the configuration settings as a JSON string.
+2. HillbillyTabMode - stores the current mode (basic or custom) as a 0 (basic) or 1 (custom)
+
+Since discovering that cookies are sometimes often to < 5kb, other lightweight caching 
 backends are being considered such as the browser session state.
  
 ##Known Limitations
+* Only 1 HillbillyTab control is allowed per page.
+* Caching via cookie is limited to < 5kb.
+* Webpart titles of all webparts accept the content editor webpart containing the script
+must not be hidden via the chrome options in the webpart settings panel.
