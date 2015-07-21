@@ -15,10 +15,10 @@ structure of the original script.
 
 ##Libraries
 The following libraries were used in this project
-1. jQuery - jquery-1.11.1.min.js
-2. jQuery UI - ui/1.11.2/jquery-ui.min.js
-3. jQuery Cookie - jquery.cookie/1.4.1/jquery.cookie.min.js
-4. jQuery UI CSS - ui/1.11.2/themes/start/jquery-ui.css
+- jQuery - jquery-1.11.1.min.js
+- jQuery UI - ui/1.11.2/jquery-ui.min.js
+- jQuery Cookie - jquery.cookie/1.4.1/jquery.cookie.min.js
+- jQuery UI CSS - ui/1.11.2/themes/start/jquery-ui.css
 
 ##Usage
 The HillbillyTabs-Config.js can be stored in a Site Assets or Style Library of the target
